@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="UTF-8">
+<title>生日快乐，依</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<script src="https://sdk.51.la/perf/js-sdk-perf.min.js" crossorigin="anonymous"></script><script>new LingQue.Monitor().init({id:"JWhH76zbSJ9K2QhV"});</script><link href="//static.51bbw.cn/temp/5/css/style.css" type="text/css" rel="stylesheet">
+<script src="//static.51bbw.cn/temp/5/js/jquery.js"></script>
+<script src="//static.51bbw.cn/temp/5/js/garden.js"></script>
+<script src="//static.51bbw.cn/temp/5/js/functions.js"></script>
+
+
+</head>
+
+
+
+<body>
+
+	<div id="mainDiv">	
+
+		<div id="content" style="width: 1150px; height: 625px; margin-top: 10px; margin-left: 10px;">
+
+			<div id="code" style="margin-top: 72.5px;">
+
+				<span class="comments">依 ：</span><br>
+
+				<span class="comments">在你生日到来之际，我将快乐的音符，作为礼物送给你。愿您拥有365个美丽的日子，衷心地祝福你，生日快乐！在此诚挚地献上我的三个祝愿：一愿你身体健康；二愿你幸福快乐；三愿你万事如意！</span><br><br>
+
+				<span class="comments">送你一个生日蛋糕，祝你生日快乐！第一层，体贴！第二层，关怀！第三层，浪漫！第四层，温馨！中间夹层，甜蜜！祝你天天都有一份好心情！</span><br>	
+
+<br><br>
+
+<span class="comments"><b class="bb">朱</b></span>
+
+</div>
+
+			<div id="loveHeart">
+
+				<canvas id="garden" width="670" height="625"></canvas>
+
+				<div id="words" style="position: absolute; top: 205px; left: 560px;">
+
+					<div id="messages" style="display: block;">					
+
+				<img src="//static.51bbw.cn/temp/5/picture/zsr.png">				
+
+					</div>
+
+					<div id="loveu" style="display: block;">
+
+					<img src="//static.51bbw.cn/temp/5/picture/sr.png">
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<div id="copyright">
+
+<center> 
+
+        
+
+        <a class="c-white fs-12 icon-play rotate" id="btn-play" href="javascript:void(0);"></a>
+
+    </center></div>
+     <script>var _bgm_url = "//www.51bbw.cn/audio/adminbgm/202112/c1849e093c4b50cbad0b1f692558d34d.mp3";</script><script src="//static.51bbw.cn/js/music_play.js"></script><style>
+		
+
+			.BBW_play {
+				width: 60px;
+				height: 60px;
+				background: url('//static.51bbw.cn/images/play.png') no-repeat;
+				background-size:100% 100% ;
+				position: fixed;
+				top: 2%;
+				right: 3%;
+				-webkit-animation: test3 2s infinite linear;
+				animation: test3 2s infinite linear;
+			z-index:999999
+			}
+
+		
+			.BBW_pause {
+				width: 60px;
+				height: 60px;
+				background: url('//static.51bbw.cn/images/play.png') no-repeat;
+				background-size:100% 100% ;
+				position: fixed;
+				top: 2%;
+				right: 3%;
+			z-index:999999;
+				-webkit-touch-callout: none;
+				-webkit-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+			}
+	
+			@-webkit-keyframes test3 {
+				100% {
+					-webkit-transform: rotateZ(360deg);
+					transform: rotateZ(360deg);
+				}
+			}
+			@keyframes test3 {
+				100% {
+					-webkit-transform: rotateZ(360deg);
+					transform: rotateZ(360deg);
+				}
+			}
+		
+
+			@media screen and (max-width: 768px){
+
+				.BBW_play,.BBW_pause{
+						width: 50px;
+						height:50px;
+				}
+			@media screen and (min-width: 1200px){
+				
+					.BBW_play,.BBW_pause{
+						width: 60px;
+						height:60px;
+					}
+				}
+		
+			
+			}
+		</style>
+
+<div class="BBW_play" id="BBW_audio_ctr"></div><audio id="BBW_mp3Btn" src="//www.51bbw.cn/audio/adminbgm/202112/c1849e093c4b50cbad0b1f692558d34d.mp3" loop="" autoplay="autoplay"> </audio>	<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script><script>LA.init({id: "JWhHl05vnbv6HXOZ",ck: "JWhHl05vnbv6HXOZ"})</script>
+
+
+	
+
+
+
+		</div>
+
+	
+
+	<script type="text/javascript">
+
+		var offsetX = $("#loveHeart").width() / 2;
+
+		var offsetY = $("#loveHeart").height() / 2 - 55;
+
+		var together = new Date();
+
+		together.setHours(8);
+
+		together.setMinutes(0);
+
+		together.setSeconds(0);
+
+		together.setMilliseconds(0);
+
+		
+
+		if (!document.createElement('canvas').getContext) {
+
+			var msg = document.createElement("div");
+
+			msg.id = "errorMsg";
+
+			msg.innerHTML = "您的浏览器已经过时!请使用非IE浏览器进行预览"; 
+
+			document.body.appendChild(msg);
+
+			$("#code").css("display", "none")
+
+			$("#copyright").css("position", "absolute");
+
+			$("#copyright").css("bottom", "10px");
+
+		    document.execCommand("stop");
+
+		} else {
+
+			setTimeout(function () {
+
+				startHeartAnimation();
+
+			}, 5000);
+
+
+
+			timeElapse(together);
+
+			setInterval(function () {
+
+				timeElapse(together);
+
+			}, 500);
+
+
+
+			adjustCodePosition();
+
+			$("#code").typewriter();
+
+		}
+
+	</script>
+
+
+
+
+
+
+
+
+
+
+					
+
+</body></html>
